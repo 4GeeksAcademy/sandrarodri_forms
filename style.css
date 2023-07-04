@@ -1,0 +1,8 @@
+.alert{
+    display: none;
+}
+
+.container:has(input:required:invalid) .alert{
+    display: block;
+}
+
